@@ -24,6 +24,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
           {/* @ts-expect-error */}
           <Header />
           {children}
+          <h2>testing</h2>
           {/* @ts-expect-error */}
           <Footer />
         </Providers>
